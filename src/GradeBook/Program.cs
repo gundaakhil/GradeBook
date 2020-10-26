@@ -11,8 +11,8 @@ namespace GradeBook
             //p.Main(args);
             //Book.AddGrade(55.5);
 
-            var book = new InMemoryBook("AKhil's Grade Book");
-            //IBook book = new DiskBook("Scott's Grade Book");
+            //var book = new InMemoryBook("AKhil's Grade Book");
+            IBook book = new DiskBook("Akhil's Grade Book");
 
             book.GradeAdded += OnGradeAdded;
 
